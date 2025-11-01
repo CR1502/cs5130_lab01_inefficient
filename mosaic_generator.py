@@ -419,7 +419,7 @@ def create_gradio_interface():
         gr.Markdown("""
         - Start with smaller grid sizes (16×16) for faster processing
         - Larger grid sizes create more detailed mosaics but take longer
-        - The default tiles are simple colored squares - you can add your own tiles to the 'tiles' folder!
+        - The default tiles are simple colored squares - you must add your own tiles to the 'tiles' folder!
         """)
 
     return demo
